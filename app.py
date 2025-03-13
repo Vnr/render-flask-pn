@@ -63,7 +63,7 @@ def proxy(path):
         data=request.data,
         verify = False,
         #proxies=proxies,
-        headers={'Referer': 'https://pamyat-naroda.ru/', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko'})
+        headers={'Referer': 'https://pamyat-naroda.ru/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0'})
 
 #    if result.status_code == 200:
 #      doSomethingWithResult(result.content)
